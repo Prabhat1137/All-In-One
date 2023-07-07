@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="simon.css">
     <title>simon game</title>
 </head>
@@ -18,27 +19,51 @@
         <h3 id="gameOver"><em>Game Over</em></h3>
     </div>
 
-    <div class="equipment">
-        <table class="tableBody">
-            <tbody >
-                <tr >
-                    <td><button class="btn" id="A">A</button></td>
-                    <td><button class="btn" id="B">B</button></td>
-                    
-                </tr>
-                <tr>
-                    <td><button class="btn" id="D">D</button></td>
-                    <td><button class="btn" id="C">C</button></td>
-                    
-                </tr>
-            </tbody>
+    <div class="container">
 
-        </table>
+    <div class="row">
+
+        <div class="col-lg-3 col-md-4 col-sm-6" ">
+            <div class="score">
+                <span >Score :</span>
+                <span id="score">0.0</span>
+             </div>
+        </div>
+
+     
+
+        <div class="col-lg-3 col-md-4 col-sm-6"">
+            <div class="equipment">
+                <table class="tableBody">
+                    <tbody >
+                        <tr >
+                            <td><button class="btn" id="A1" onclick="reply_click(this)">A</button></td>
+                            <td><button class="btn" id="B2" onclick="reply_click(this)">B</button></td>
+                            
+                        </tr>
+                        <tr>
+                            <td><button class="btn" id="D4" onclick="reply_click(this)">D</button></td>
+                            <td><button class="btn" id="C3" onclick="reply_click(this)">C</button></td>
+                            
+                        </tr>
+                    </tbody>
+        
+                </table>
+        
+                
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6" ">
+            <div class="restart">
+                <button class="rbtn" id="bt">Restart</button>
+
+            </div>
+        </div>
     </div>
-    <div class="score">
-       <span >Score :</span>
-       <span id="score">0.0</span>
-    </div>
+</div>
+   
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="simon.js" charset="UTF-8"></script>
     
