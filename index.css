@@ -1,0 +1,36 @@
+body{
+    background: #d7d1d17c;
+}
+.header{
+    text-align: center;
+    background: #abf16a;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 55px;
+}
+.com{
+    text-align: center;
+    background: #61bfe7;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 45px;
+}
+
+.txtcol{
+    background: #738efb;
+    color: #f9f8fe;
+    text-align: center;
+}
+.row{
+    background: #f2d1d1;
+    border: 2px solid;
+    
+}
+.itemname{
+    text-align: center;
+    
+}
+.bordr{
+    border:2px rgb(152, 127, 127) solid;
+    
+}

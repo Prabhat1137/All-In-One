@@ -1,0 +1,60 @@
+body{
+    background: #dde4fc;
+}
+.header{
+    /* background: #e5ed51; */
+    font-size: 50px;
+    margin-top: -70px;
+    text-align: center;
+}
+.rule{
+    text-align: center;
+    /* background: #4f8ee1; */
+    margin-top: -70px;
+    font-size: 27px;
+}
+.equipment{
+    /* background: yellow; */
+    size: 200px;
+    height: 100px;
+    margin-top: 100px;
+    
+}
+
+#gameOver{
+    text-align: center;
+    color: #f36363;
+}
+
+.btn{
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    /* background: #ddd3d3; */
+    border: #dde4fc;
+    
+    
+}
+.tableBody{
+    background: #27f665;
+    margin-left: 40%;
+   
+}
+#A{
+    background: #ed0505;
+   
+}
+#B{
+    background: #05f40d;
+}
+#C{
+    background: #0e06f3;
+}
+#D{
+    background: #07c0f8;
+}
+.score{
+    margin-top: 280px;
+    /* background: #000; */
+    text-align: center;
+}
