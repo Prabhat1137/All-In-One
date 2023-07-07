@@ -4,35 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="dice.css">
     <title>Diece game</title>
 </head>
 <body>
+
+    <div class="container-fluid">
     <div id="heading">
-        <h1 id="game_heading"><em>Refresh Me</em></h1>
+        <h3 id="game_heading"><em>Refresh Me</em></h3>
         
     </div>
-    <div class="player">
-        <span id="player1"><strong><em>Player 1</em></strong></span>
-        <span id="player2"><strong><em>Player 2</em></strong></span>
+
+    <div class="row" style="background-color: #e6cfcf;">
+        <div class="col-sm-6 ">
+            <div class="player">
+                <div>
+                    <h4 style="text-align: center;"><em>Player 1</em></h4>
+                </div>
+                <div class="img">
+                    <img id="img1"  src="resource/img1.png" alt="dice 1">
+                </div>
+            </div>
+
+        </div>
+        
+
+    
+
+        <div class="col-sm-6">
+            <div class="player">
+                <div>
+                    <h4 style="text-align: center;"><em>Player 2</em></h4>
+                </div>
+                <div class="img">
+                    <img id="img2"  src="resource/img2.png" alt="dice 2">
+                </div>
+            </div>
+
+        </div>
     </div>
+        
 
-    <div class="point">
-        <!-- <span id="p1Point"> point1</span>
-        <span id="p2Point"> point2</span> -->
+   
 
-        <img id="img1"  src="resource/img1.png" alt="1">
-        <img id="img2"  src="resource/img2.png" alt="2">
-
-       
-    </div>
-
-    <div class="reasult">
-        <p id="res"><em>result</em></p>
+    <div class="result">
+        <p id="res" style="text-align: center;"><em>result</em></p>
     </div>
 
     
     <script src="dice.js" charset="UTF-8"></script>
+
+</div>
     
 </body>
 </html>
