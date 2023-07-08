@@ -4,6 +4,12 @@ jQuery("#cal").click(function()
     const weight=jQuery("#weight").val();
     const heightInMeter=height/100;
     const bmi=(weight/(heightInMeter*heightInMeter)).toFixed(2);
+    if(isNaN(bmi) || bmi==0.00 || bmi==Infinity)
+    {
+        jQuery("#result").text("Invalid input");
+        jQuery("#result").css("color","red");
+
+    }else{   
     if(bmi<18.5)
     {
         jQuery("#result").text("BMI is : "+bmi+", You are underweight");
@@ -24,6 +30,7 @@ jQuery("#cal").click(function()
     }else{
         jQuery("#result").text("BMI is : "+bmi+" You are obese");
         jQuery("#result").css("color","red");
+    }
     }
     
     
