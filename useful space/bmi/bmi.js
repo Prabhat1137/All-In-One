@@ -12,23 +12,23 @@ jQuery("#cal").click(function()
     }else{   
     if(bmi<18.5)
     {
-        jQuery("#result").text("BMI is : "+bmi+", You are underweight");
+        jQuery("#result").text("BMI : "+bmi+", You are underweight");
         jQuery("#result").css("color","yellow");
         jQuery("#result").css("background-color","black");
     }
     else if(bmi<25){
-        jQuery("#result").text("BMI is : "+bmi+", You are healthy");
+        jQuery("#result").text("BMI : "+bmi+", You are healthy");
         jQuery("#result").css("color","green");
         // jQuery("#result").css("background-color","black");
 
     }
     else if(bmi<30){
-        jQuery("#result").text("BMI is : "+bmi+", You are overweight");
+        jQuery("#result").text("BMI : "+bmi+", You are overweight");
         jQuery("#result").css("color","red");
         // jQuery("#result").css("background-color","black");
 
     }else{
-        jQuery("#result").text("BMI is : "+bmi+" You are obese");
+        jQuery("#result").text("BMI : "+bmi+" You are obese");
         jQuery("#result").css("color","red");
     }
     }
