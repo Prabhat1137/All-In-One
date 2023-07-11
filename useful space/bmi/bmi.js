@@ -14,7 +14,7 @@ jQuery("#cal").click(function()
     {
         jQuery("#result").text("BMI : "+bmi+", You are underweight");
         jQuery("#result").css("color","yellow");
-        // jQuery("#result").css("background-color","black");
+       jQuery("body").css("background-color","#a88c8a");
     }
     else if(bmi<25){
         jQuery("#result").text("BMI : "+bmi+", You are healthy");
